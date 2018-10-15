@@ -75,6 +75,8 @@ MonoBehaviour:
   maxTimeBetweenShots: 3
   projectile: {fileID: 1380878687511050, guid: cb306155d8bf3b54c9d2b9bc3f88587d, type: 2}
   projectileSpeed: 10
+  explosionParticle: {fileID: 1902747437129670, guid: 5d0d4f499d1967b4fa5b20da5bd03ebb,
+    type: 2}
 --- !u!114 &114720616035067918
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -25,4 +25,18 @@ public class GameSession : MonoBehaviour {
         }
     }
 
+    public int GetScore()
+    {
+        return score;
+    }
+
+    public void AddToScore(int scoreValue)
+    {
+        score += scoreValue;
+    }
+
+    public void ResetGame()
+    {
+        Destroy(gameObject);
+    }
 }
